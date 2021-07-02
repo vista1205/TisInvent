@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{153B9290-557F-43B5-9264-81E66FE49412}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>InvetPerspectiva</RootNamespace>
+    <AssemblyName>InvetPerspectiva</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_Job.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Job.Designer.cs">
+      <DependentUpon>Add_Job.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Model.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Model.Designer.cs">
+      <DependentUpon>Add_Model.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Sotrudnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Sotrudnik.Designer.cs">
+      <DependentUpon>Add_Sotrudnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Status.Designer.cs">
+      <DependentUpon>Add_Status.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Technika_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Technika_Form.Designer.cs">
+      <DependentUpon>Add_Technika_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Type.Designer.cs">
+      <DependentUpon>Add_Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Del_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Del_Form.Designer.cs">
+      <DependentUpon>Del_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Kabinet_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Kabinet_Form.Designer.cs">
+      <DependentUpon>Add_Kabinet_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Del_Kabinet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Del_Kabinet.Designer.cs">
+      <DependentUpon>Del_Kabinet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Del_Model.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Del_Model.Designer.cs">
+      <DependentUpon>Del_Model.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Del_Sotrudnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Del_Sotrudnik.Designer.cs">
+      <DependentUpon>Del_Sotrudnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Del_status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Del_status.Designer.cs">
+      <DependentUpon>Del_status.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Del_Type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Del_Type.Designer.cs">
+      <DependentUpon>Del_Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Tehnika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_Tehnika.Designer.cs">
+      <DependentUpon>Edit_Tehnika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvetPerspectivaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InvetPerspectivaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Add_Job.resx">
+      <DependentUpon>Add_Job.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Model.resx">
+      <DependentUpon>Add_Model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Sotrudnik.resx">
+      <DependentUpon>Add_Sotrudnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Status.resx">
+      <DependentUpon>Add_Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Technika_Form.resx">
+      <DependentUpon>Add_Technika_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Type.resx">
+      <DependentUpon>Add_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Del_Form.resx">
+      <DependentUpon>Del_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Kabinet_Form.resx">
+      <DependentUpon>Add_Kabinet_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Del_Kabinet.resx">
+      <DependentUpon>Del_Kabinet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Del_Model.resx">
+      <DependentUpon>Del_Model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Del_Sotrudnik.resx">
+      <DependentUpon>Del_Sotrudnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Del_status.resx">
+      <DependentUpon>Del_status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Del_Type.resx">
+      <DependentUpon>Del_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Tehnika.resx">
+      <DependentUpon>Edit_Tehnika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="InvetPerspectivaDataSet.xsc">
+      <DependentUpon>InvetPerspectivaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="InvetPerspectivaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InvetPerspectivaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="InvetPerspectivaDataSet.xss">
+      <DependentUpon>InvetPerspectivaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="InvetPerspectiva.accdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
