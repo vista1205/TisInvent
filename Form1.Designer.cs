@@ -352,7 +352,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem инвентаризацияToolStripMenuItem;
         private System.Windows.Forms.Button Add_Button_technika;
-        private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.Button DelButton;
         public System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button View_Button_Status;
@@ -366,6 +365,7 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button Add_Job_Button;
         private System.Windows.Forms.Button del_otherButton;
+        public System.Windows.Forms.DataGridView dataGridView2;
     }
 }
 

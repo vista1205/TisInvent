@@ -84,6 +84,7 @@
     <Compile Include="Add_Type.Designer.cs">
       <DependentUpon>Add_Type.cs</DependentUpon>
     </Compile>
+    <Compile Include="BDClass.cs" />
     <Compile Include="Del_Form.cs">
       <SubType>Form</SubType>
     </Compile>
